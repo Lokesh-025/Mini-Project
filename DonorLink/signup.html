@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>Signup</h2>
+    <form onsubmit="return validateSignup()">
+        <input type="text" id="name" placeholder="Name">
+        <input type="email" id="email" placeholder="Email">
+        <select id="blood">
+            <option value="">Select Blood Group</option>
+            <option>A+</option><option>B+</option><option>O+</option><option>AB+</option>
+            <option>A-</option><option>B-</option><option>O-</option><option>AB-</option>
+        </select>
+        <input type="password" id="password" placeholder="Password">
+        <button type="submit">Register</button>
+    </form>
+    <script src="js/script.js"></script>
+</body>
+</html>
